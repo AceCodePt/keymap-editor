@@ -90,12 +90,12 @@ function Key(props) {
       onMouseLeave={onMouseLeave}
     >
     {behaviour ? (
-      <span
+      <button
         className={styles['behaviour-binding']}
         onClick={handleSelectBehaviour}
       >
         {behaviour.code}
-      </span>
+      </button>
     ) : null}
     <KeyParamlist
       root={true}
