@@ -49,6 +49,7 @@
 
 .behaviour-binding {
   position: absolute;
+  display: inline;
   top: 0;
   left: 0;
   font-size: 10px;
